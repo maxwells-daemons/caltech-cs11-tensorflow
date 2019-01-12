@@ -1,5 +1,5 @@
 # caltech-cs11-tensorflow
-Repository for the CS11 Tensorflow track.
+Repository for the CS11 Tensorflow track. Course outline [here](https://docs.google.com/document/d/1TSouogmnP0fgxwrlOyasWnNaG0aKX3i9tmuzZKjct1Y/edit?usp=sharing).
 
 Resources:
 -
