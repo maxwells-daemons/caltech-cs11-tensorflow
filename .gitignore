@@ -2,6 +2,9 @@
 # Log files
 logs/
 
+# Solution notebooks
+*_solutions.ipynb
+
 ### Python
 ### From: https://github.com/github/gitignore/blob/master/Python.gitignore
 # Byte-compiled / optimized / DLL files
