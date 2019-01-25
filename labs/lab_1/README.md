@@ -8,6 +8,10 @@ All of the labs will have the same basic structure:
   3. A `lab_*.ipynb` file to be filled out as the week's assignment 
 
 Make sure you read the **entire** README before starting the assignment, since it might have important information or setup steps.
+While doing the assignments, expect to spend some amount of time reading the TensorFlow documentation, especially pages on functions I mention you might need for a problem.
+This will be true every time you use TensorFlow.
+To quickly search for what you need, I recommend using https://devdocs.io/, which re-hosts the TensorFlow documentation in an easy-to-search way.
+The regular documentation is available here: https://www.tensorflow.org/api_docs/python/.
 
 ## Reading
 TODO
