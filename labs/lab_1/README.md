@@ -4,7 +4,7 @@ This lab will introduce the basics of writing programs with TensorFlow, as well 
 ## Course structure
 All of the labs will have the same basic structure:
   1. A README like this one with a high-level overview of the week's content
-  2. Some reading on the week's material
+  2. Some reading on the week's material, presented as a `notes_*.ipynb` Jupyter notebook that can be read online or run locally. It will have lots of exposition, plus graphs and code snippets here and there.
   3. A `lab_*.ipynb` file to be filled out as the week's assignment 
 
 Make sure you read the **entire** README before starting the assignment, since it might have important information or setup steps.
@@ -12,9 +12,6 @@ While doing the assignments, expect to spend some amount of time reading the Ten
 This will be true every time you use TensorFlow.
 To quickly search for what you need, I recommend using https://devdocs.io/, which re-hosts the TensorFlow documentation in an easy-to-search way.
 The regular documentation is available here: https://www.tensorflow.org/api_docs/python/.
-
-## Reading
-TODO
 
 ## Environment setup
 For this class, we'll using Python 3.
