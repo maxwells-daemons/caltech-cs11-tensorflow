@@ -1,6 +1,7 @@
 ### Project
 # Log files
 logs/
+lecture_logs/
 
 # Solution notebooks
 *_solutions.ipynb
