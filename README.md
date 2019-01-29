@@ -1,5 +1,22 @@
-# caltech-cs11-tensorflow
-Repository for the CS11 Tensorflow track. Course outline [here](https://docs.google.com/document/d/1TSouogmnP0fgxwrlOyasWnNaG0aKX3i9tmuzZKjct1Y/edit?usp=sharing).
+# CS11: TensorFlow
+Repository for the Caltech CS11 Tensorflow track. Course outline [here](https://docs.google.com/document/d/1TSouogmnP0fgxwrlOyasWnNaG0aKX3i9tmuzZKjct1Y/edit?usp=sharing).
+
+This course is intended as a fast-paced introduction to machine learning with TensorFlow and Keras, focused particularly on neural networks.
+It gives a whirlwind tour of several types of models, and brief coverage of several machine learning topics, but its primary goal is first and foremost to _get you comfortable with writing, training, and deploying sophisticated models in TensorFlow._
+Along the way, we'll look at concepts from differentiable programming, an exciting new programming paradigm.
+By the end of this class, you should be able to write deep models to solve many kinds of problems.
+
+What this course is **not**:
+ - An intro class in machine learning. You should probably take [one of those](https://work.caltech.edu/telecourse.html) first.
+ - A statistics or linear algebra class. To write models and understand what they're doing, you need both of these, but this class doesn't have time to cover them. You should take a class in each of those first.
+ - A class in neural network theory. They're the main model we'll focus on, but the focus is _how to build them_, not why they work.
+ - Going to cover all of the most recent models. We just don't have time.
+
+The class is three units, pass-fail.
+That means that readings and labs should take total three hours per week, for ten weeks.
+There are six labs, some of which are 2-week, plus some setup time.
+I've tried my very best to hit the 3-unit mark, so if a week is too short or too long, please let me know!
+That being said, some weeks may be longer than you're used to for a 3-unit because the ten weeks are divided into six sections, and because we're trying to cover a _lot_ of material in a limited time.
 
 If you're planning to take the course, please read this *entire* document.
 It has some important info!
@@ -121,6 +138,9 @@ Ultimately, this is a pass-fail course and you're here to learn useful things.
  - Differentiable programming concepts:
    - [Software 2.0](https://medium.com/@karpathy/software-2-0-a64152b37c35): An ambitious piece by the director of AI at Tesla in which differential programming is the way most (all?) future software will be written
    - [2016 Microsoft Research Slides](http://www.cs.nuim.ie/~gunes/files/Baydin-MSR-Slides-20160201.pdf): Slide deck from a research presentation contrasting automatic differentiation (AD) to differentiable programming and covering some topics in both fields
+ - Machine learning:
+   - [The "Deep Learning Book"](https://www.deeplearningbook.org/) is in my mind the comprehensive reference on deep learning, from ML first principles to modern approaches. It's a must-read for anyone wanting to seriously get into deep learning. And it's free! 
+   - [Practical Deep Learning for Coders (fast.ai)](https://www.fast.ai/) is an incredibly popular online course in deep learning.
  - Cool stuff:
    - [Neural Networks, Types, and Functional Programming](https://colah.github.io/posts/2015-09-NN-Types-FP/)
    - [Neural Networks, Manifolds, and Topology](https://colah.github.io/posts/2014-03-NN-Manifolds-Topology/)
