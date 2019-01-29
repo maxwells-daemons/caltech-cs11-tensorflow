@@ -1,63 +1,25 @@
 # Lab 1: TensorFlow Basics
-This lab will introduce the basics of writing programs with TensorFlow, as well as some course structure.
+This lab will introduce the basics of writing programs with TensorFlow.
 
-## Course structure
-All of the labs will have the same basic structure:
-  1. A README like this one with a high-level overview of the week's content
-  2. Some reading on the week's material, presented as a `notes_*.ipynb` Jupyter notebook that can be read online or run locally. It will have lots of exposition, plus graphs and code snippets here and there.
-  3. A `lab_*.ipynb` file to be filled out as the week's assignment 
+To be honest, this week doesn't involve building anything terribly exciting.
+Combine that with the number of definitions, algorithms, and TensorFlow features we're going to cover, and it might be hard to see why we care about differentiable programming at all.
+But this week's concepts are absolutely foundational, and if you get through it you should know basically everything about writing simple programs in TensorFlow.
+Stick with it, and I promise it's worth it -- we'll be building cool things soon.
 
-Make sure you read the **entire** README before starting the assignment, since it might have important information or setup steps.
-While doing the assignments, expect to spend some amount of time reading the TensorFlow documentation, especially pages on functions I mention you might need for a problem.
-This will be true every time you use TensorFlow.
-To quickly search for what you need, I recommend using https://devdocs.io/, which re-hosts the TensorFlow documentation in an easy-to-search way.
-The regular documentation is available here: https://www.tensorflow.org/api_docs/python/.
+Concepts this week:
+ - Tensors (rank, shape, data type) as used in TensorFlow
+ - Computational graphs
+ - Differentiable programming
+ - Gradient descent algorithm
 
-## Environment setup
-For this class, we'll using Python 3.
-The easiest way to complete the setup is in a virtual environment, which I walk you through below.
-Note that TensorFlow currently _only supports Python 3.4, 3.5, and 3.6_, so I will assume you have one of those versions installed, with pip set up correctly.
-I'm also assuming you're setting this up on a standard Linux system.
-If not, proceed carefully.
-
-#### Virtual environments
-Virtual environments simulate a "clean" Python install on your system so you don't need to worry about library conflicts and dependency issues.
-Therefore I recommend dedicating a virtual environment to this class.
-First, install virtualenv and virtualenvwrapper:
-~~~
-pip install virtualenv
-pip install virtualenvwrapper
-~~~
-[You might want to do additional setup here](http://roundhere.net/journal/virtualenv-ubuntu-12-10/).
-Then, create and check the virtual environment:
-~~~
-mkvirtualenv -p /usr/bin/python3.6 cs11-tensorflow  # Point to the Python binary you'll be using
-workon cs11-tensorflow
-python --version  # Should print "Python 3.x.y" where x is 4, 5, or 6
-~~~
-To activate the environment, use `workon cs11-tensorflow`.
-To deactivate it when you're done, use `deactivate`.
-
-#### Required libraries
-Once you're in the virtual environment, run
-~~~
-pip install numpy scipy matplotlib ipython jupyter pandas scikit-learn tensorflow
-~~~
-Then, try running `python -c "import tensorflow"` in your shell.
-If the line executes successfully (printing nothing), your setup is probably fine.
-If you get an error message like `ModuleNotFoundError: No module named 'tensorflow'` then something went wrong.
-
-#### Downloading the code
-You'll be doing assignments by modifying `.ipynb` notebook files and submitting them via git, so you need your own copy of the code.
-Fork the repository (most easily, by clicking the "fork" button in the upper-right corner of the GitHub page), then make a local copy by cloning your fork.
-
-## Running the code
-With the virtual environment active, run
-~~~
-jupyter notebook
-~~~
-to host the notebook server.
-If you haven't used Jupyter notebooks before, [here's a pretty good guide](https://www.dataquest.io/blog/jupyter-notebook-tutorial/).
-
-## Submitting assignments
-TODO
+TensorFlow features this week:
+ - Overview of API levels
+ - Tensors, tensor values, and tensor slices
+ - Operations
+ - Variables
+ - Name scopes
+ - Reshapes, transpositions, and reductions
+ - Defining a computational graph in the Graph object
+ - Subgraph execution with Sessions
+ - Computing gradients, numerical optimization with Optimizers
+ - Using TensorBoard to visualize computational graphs and learning plots
