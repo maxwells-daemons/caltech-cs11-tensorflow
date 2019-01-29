@@ -98,6 +98,18 @@ Brownie points to anyone who gets their code running on a TPU.
 ## Submitting assignments
 TODO
 
+## Collaboration policy, honor code
+Feel free to collaborate on concepts, algorithms, etc, but please don't share code in any way.
+This includes looking up code snippets that do what you're trying to do.
+
+However: this is a programming language class, and sometimes the difficulty is in finding the right Operations to use.
+So, feel free to get help from me and others for searching the documentation, understanding syntax and common language forms, knowing which Operations to use, etc.
+You can also look up TensorFlow code snippets that do similar, but not the same, thing.
+It's the difference between getting help on a mini-project to "write linear regression" by searching Stack Exchange for "how to write linear regression in TensorFlow" (bad) vs "how to do matrix multiplication in TensorFlow" (good).
+Ask me if you have questions.
+
+Ultimately, this is a pass-fail course and you're here to learn useful things.
+
 ## Resources:
  - Documentation:
    - [Tensorflow official API](https://www.tensorflow.org/api_docs/python/): The official documentation; hard to search effectively but the individual pages are good
