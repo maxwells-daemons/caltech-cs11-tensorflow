@@ -28,11 +28,19 @@ To quickly search for what you need, I recommend using https://devdocs.io/, whic
 The regular documentation is available here: https://www.tensorflow.org/api_docs/python/.
 
 ## Environment setup
+You should do this setup before the first lab.
+
 For this class, we'll using Python 3.
 The easiest way to complete the setup is in a virtual environment, which I walk you through below.
 Note that TensorFlow currently _only supports Python 3.4, 3.5, and 3.6_, so I will assume you have one of those versions installed, with pip set up correctly.
 I'm also assuming you're setting this up on a standard Linux system.
 If not, proceed carefully.
+
+I don't really have the bandwidth to help with setup issues, so if you're having trouble, you can try:
+ - Using a clean virtualenv
+ - Using a clean Linux VM
+ - Asking a friend
+ - Using Colaboratory (see below)
 
 #### Virtual environments
 Virtual environments simulate a "clean" Python install on your system so you don't need to worry about library conflicts and dependency issues.
@@ -75,17 +83,32 @@ jupyter notebook
 to host the notebook server.
 If you haven't used Jupyter notebooks before, [here's a pretty good guide](https://www.dataquest.io/blog/jupyter-notebook-tutorial/).
 
-## Colaboratory
+#### Colaboratory
 Apart from running a Jupyter notebook locally, Google also provides free "hosted notebooks" with [Colaboratory](https://colab.research.google.com/).
 They're a particularly good choice if your computer is not too powerful (they offer free compute time on GPUs as long as you're not using them for too long at once) or if you're having a hard time setting up the dependencies (they come pre-loaded with all of the libraries we'll use).
+
 The tradeoff is that loading and saving data and files will follow a different procedure than if you're running it locally, running TensorBoard is more complicated (look up the TensorBoardColab library), and the notebook is online so you may experience more latency.
+
 I'm writing this class with the intent that everyone runs the notebooks locally, so if you want to use Colaboratory you may have to figure a lot of it out on your own.
+For the most part, any modern computer should be able to handle the processsing required in a reasonable amount of time.
 For any assignment that takes serious processing power, I'll write with Colaboratory and its free acceleration in mind.
 
 Brownie points to anyone who gets their code running on a TPU.
 
 ## Submitting assignments
 TODO
+
+## Collaboration policy, honor code
+Feel free to collaborate on concepts, algorithms, etc, but please don't share code in any way.
+This includes looking up code snippets that do what you're trying to do.
+
+However: this is a programming language class, and sometimes the difficulty is in finding the right Operations to use.
+So, feel free to get help from me and others for searching the documentation, understanding syntax and common language forms, knowing which Operations to use, etc.
+You can also look up TensorFlow code snippets that do similar, but not the same, thing.
+It's the difference between getting help on a mini-project to "write linear regression" by searching Stack Exchange for "how to write linear regression in TensorFlow" (bad) vs "how to do matrix multiplication in TensorFlow" (good).
+Ask me if you have questions.
+
+Ultimately, this is a pass-fail course and you're here to learn useful things.
 
 ## Resources:
  - Documentation:
