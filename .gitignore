@@ -2,6 +2,7 @@
 # Log files
 logs/
 lecture_logs/
+data/
 
 # Solution notebooks
 *_solutions.ipynb
