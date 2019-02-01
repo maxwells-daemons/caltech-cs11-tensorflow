@@ -22,4 +22,3 @@ TensorFlow features this week:
  - Defining a computational graph in the Graph object
  - Subgraph execution with Sessions
  - Computing gradients, numerical optimization with Optimizers
- - Using TensorBoard to visualize computational graphs and learning plots
