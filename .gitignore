@@ -3,6 +3,7 @@
 logs/
 lecture_logs/
 data/
+checkpoints/
 
 # Solution notebooks
 *_solutions.ipynb
