@@ -1,9 +1,10 @@
 ### Project
 # Log files
-logs/
-lecture_logs/
 data/
+logs/
+logs_lecture/
 checkpoints/
+checkpoints_lecture/
 
 # Solution notebooks
 *_solutions.ipynb
