@@ -6,13 +6,12 @@ From this point on, increasing complexity will come more from new types of model
 
 Concepts this week:
  - Regression and classification problems
- - Loss functions
+ - Loss functions (squared error and cross-entropy)
  - Linear models (linear regression and logistic regression)
  - Stochastic gradient descent algorithm, batching and batch size
  - Backpropagation algorithm
 
 TensorFlow features this week:
  - Iterating over data with Datasets and Iterators
- - Saving and restoring models
+ - Saving and restoring variables
  - Using TensorBoard to visualize computational graphs and learning plots
- - Keras API
