@@ -80,7 +80,7 @@ To deactivate it when you're done, use `deactivate`.
 #### Required libraries
 Once you're in the virtual environment, run
 ~~~
-pip install numpy scipy matplotlib ipython jupyter pandas scikit-learn tensorflow
+pip install numpy scipy matplotlib ipython jupyter pandas scikit-learn tensorflow keras
 ~~~
 Then, try running `python -c "import tensorflow"` in your shell.
 If the line executes successfully (printing nothing), your setup is probably fine.
