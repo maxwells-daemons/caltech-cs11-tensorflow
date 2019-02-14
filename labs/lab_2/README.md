@@ -15,3 +15,9 @@ TensorFlow features this week:
  - Iterating over data with Datasets and Iterators
  - Saving and restoring variables
  - Using TensorBoard to visualize computational graphs and learning plots
+ 
+ Optional material:
+  - ["Calculus on Computational Graphs: Backpropagation" (Chris Olah)](https://colah.github.io/posts/2015-08-Backprop/) quickly and intuitively derives backpropagation.
+  - ["Hacker's guide to Neural Networks" (Andrej Karpathy)](https://karpathy.github.io/neuralnets/) derives the chain rule and backpropagation from scratch, from the perspective of math as combining "circuits" (operations) and from a "hacking" or "coding" perspective
+  - [The ML Cheatsheet guide to logistic regression](https://ml-cheatsheet.readthedocs.io/en/latest/logistic_regression.html)
+  - The TensorFlow official guide on [saving and restoring models](https://www.tensorflow.org/guide/saved_model), [graph visualization](https://www.tensorflow.org/guide/graph_viz), and [scalar visualization](https://www.tensorflow.org/guide/summaries_and_tensorboard)
