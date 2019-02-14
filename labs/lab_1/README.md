@@ -1,7 +1,7 @@
 # Lab 1: TensorFlow Basics
 This lab will introduce the basics of writing programs with TensorFlow.
 
-To be honest, this week doesn't involve building anything terribly exciting.
+To be honest, this week doesn't involve building anything too exciting.
 Combine that with the number of definitions, algorithms, and TensorFlow features we're going to cover, and it might be hard to see why we care about differentiable programming at all.
 But this week's concepts are absolutely foundational, and if you get through it you should know basically everything about writing simple programs in TensorFlow.
 Stick with it, and I promise it's worth it -- we'll be building cool things soon.
@@ -22,3 +22,8 @@ TensorFlow features this week:
  - Defining a computational graph in the Graph object
  - Subgraph execution with Sessions
  - Computing gradients, numerical optimization with Optimizers
+
+Optional material:
+ - https://thispersondoesnotexist.com/ is a browser demo of one of the coolest things we can do with machine learning right now: generate realistic pictures of people who don't exist
+ - The TensorFlow official low-level guide, [introduction](https://www.tensorflow.org/guide/low_level_intro), and the pages on [tensors](https://www.tensorflow.org/guide/tensors), [variables](https://www.tensorflow.org/guide/variables), and [graphs](https://www.tensorflow.org/guide/graphs)
+ - [The Google Developers machine learning crash course on gradient descent](https://developers.google.com/machine-learning/crash-course/reducing-loss/gradient-descent), and the next four pages (through "Playground Exercise")
