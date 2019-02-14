@@ -9,14 +9,13 @@ Concepts this week:
     - 1D
     - 2D
  - Convolutional neural networks
- - Common architecture choices
  - Benefits of convolutions
  - Interpretations of convolution:
     - Learning filters
     - Locally-connected dense layers with weight sharing
  - Stride
- - Padding
  - Pooling
+ - Common architecture choices
 
 TensorFlow features this week:
  - TensorFlow convolution functions
