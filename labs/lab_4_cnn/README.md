@@ -23,4 +23,5 @@ TensorFlow features this week:
 
 Optional resources:
  - [The Deep Learning Book, Chapter 9: Convolutional Networks](http://www.deeplearningbook.org/contents/convnets.html) is the definitive resource here, if you have the time to read it
+ - ["A guide to convolution arithmetic for deep learning"](https://arxiv.org/abs/1603.07285)
  - [This (long-ish) tutorial on CNNs in TensorFlow by Hvass Labs](https://github.com/Hvass-Labs/TensorFlow-Tutorials/blob/master/02_Convolutional_Neural_Network.ipynb) is quite good
