@@ -25,3 +25,6 @@ Optional resources:
  - [The Deep Learning Book, Chapter 9: Convolutional Networks](http://www.deeplearningbook.org/contents/convnets.html) is the definitive resource here, if you have the time to read it
  - ["A guide to convolution arithmetic for deep learning"](https://arxiv.org/abs/1603.07285)
  - [This (long-ish) tutorial on CNNs in TensorFlow by Hvass Labs](https://github.com/Hvass-Labs/TensorFlow-Tutorials/blob/master/02_Convolutional_Neural_Network.ipynb) is quite good
+ - [This interactive visualization of image kernels](http://setosa.io/ev/image-kernels/) is fun to play around with and can give you some intuition for how 2-D convolution works
+ - ["Conv Nets: A Modular Perspective"](https://colah.github.io/posts/2014-07-Conv-Nets-Modular/) is a good blog post on the "convolution as reused functions" perspective
+ - ["Visualizing Convolutional Neural Networks"](https://www.oreilly.com/ideas/visualizing-convolutional-neural-networks) is another tutorial on CNNs in TensorFlow, this time with a little more detail on the visualization side
