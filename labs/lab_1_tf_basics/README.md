@@ -24,6 +24,7 @@ TensorFlow features this week:
  - Computing gradients, numerical optimization with Optimizers
 
 Optional material:
+ - For a review of all of the relevant basic machine learning material, see the [Deep Learning Book, Chapter 5: Machine Learning Basics](http://www.deeplearningbook.org/contents/ml.html)
  - https://thispersondoesnotexist.com/ is a browser demo of one of the coolest things we can do with machine learning right now: generate realistic pictures of people who don't exist
  - The TensorFlow official low-level guide, [introduction](https://www.tensorflow.org/guide/low_level_intro), and the pages on [tensors](https://www.tensorflow.org/guide/tensors), [variables](https://www.tensorflow.org/guide/variables), and [graphs](https://www.tensorflow.org/guide/graphs)
  - [The Google Developers machine learning crash course on gradient descent](https://developers.google.com/machine-learning/crash-course/reducing-loss/gradient-descent), and the next four pages (through "Playground Exercise")
