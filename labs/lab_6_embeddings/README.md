@@ -1,14 +1,14 @@
 # Lab 6: Embeddings
-This week is focused on how to effectively use and interpret categorical variables through a powerful technique known as embeddings.
+This week is focused on how to effectively use and interpret discrete variables through a powerful technique known as embeddings.
 Embeddings can teach your models valuable things about your input, learn to encode similarity and distance, and make models much more statistically efficient.
 What's more, they can often be learned unsupervised.
-When dealing with categorical variables, and especially text, embeddings are a must.
+When dealing with discrete variables, and especially text, embeddings are a must.
 
 Concepts:
  - Benefits of distributed representation
  - Sparse vs dense tensors
- - Categorical input and one-hot encodings
- - Converting sparse categorical input to dense, distributed representation through embeddings
+ - Discrete input and one-hot encodings
+ - Converting sparse discrete input to dense, distributed representation through embeddings
 
 TensorFlow features:
  - TensorFlow and Keras embedding functions
