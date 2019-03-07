@@ -16,6 +16,6 @@ TensorFlow features:
  - Visualizing embeddings with TensorBoard
 
  Optional resources:
-  - ["Deep Learning, NLP, and Representations" on Chris Olah's blog](https://colah.github.io/posts/2014-07-NLP-RNNs-Representations/) ties embeddings to representation learning in a really compelling way, and shows off some of the cool things you can do with embeddings
+  - ["Deep Learning, NLP, and Representations" on Chris Olah's blog](https://colah.github.io/posts/2014-07-NLP-RNNs-Representations/) ties embeddings to transferrable representations in a really compelling way, and shows off some of the cool things you can do with embeddings
   - [The TensorFlow official guide on embeddings](https://www.tensorflow.org/guide/embedding) covers what embeddings are and how to visualize them in TensorFlow
   - ["Vector Representations of Words"](https://www.tensorflow.org/tutorials/representation/word2vec), another TensorFlow official guide, discusses embeddings and the Word2Vec model in depth, including examples with code
