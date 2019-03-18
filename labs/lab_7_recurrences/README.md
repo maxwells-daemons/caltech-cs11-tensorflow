@@ -13,6 +13,7 @@ Concepts:
 
 TensorFlow features:
  - Keras recurrent layer functions
+ - Integrating TensorFlow and Keras
 
 Optional resources:
  - ["The Unreasonable Effectiveness of Recurrent Neural Networks"](https://karpathy.github.io/2015/05/21/rnn-effectiveness/), by Andrej Karpathy, is an incredible resource for explaining both how RNNs work and some exciting implications
