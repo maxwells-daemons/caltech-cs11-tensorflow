@@ -19,3 +19,4 @@ Optional resources:
  - ["The Unreasonable Effectiveness of Recurrent Neural Networks"](https://karpathy.github.io/2015/05/21/rnn-effectiveness/), by Andrej Karpathy, is an incredible resource for explaining both how RNNs work and some exciting implications
  - ["Understanding LSTMs"](https://colah.github.io/posts/2015-08-Understanding-LSTMs/), on Chris Olah's blog, is a great explanation of the complicated parts of LSTMs
  - [The Deep Learning Book chapter on recurrent networks](http://www.deeplearningbook.org/contents/rnn.html) is long but a definitive resource on this topic
+ - [Attention and Augmented RNNs](https://distill.pub/2016/augmented-rnns/), posted on [distill.pub](https://distill.pub/), covers some more advanced topics of current research in RNNs
