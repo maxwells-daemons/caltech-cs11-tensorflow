@@ -1,5 +1,5 @@
 # CS11: TensorFlow
-Repository for the Caltech CS11 Tensorflow track. Course outline [here](https://docs.google.com/document/d/1TSouogmnP0fgxwrlOyasWnNaG0aKX3i9tmuzZKjct1Y/edit?usp=sharing).
+Repository for the Caltech CS11 TensorFlow track. Course outline [here](https://docs.google.com/document/d/1TSouogmnP0fgxwrlOyasWnNaG0aKX3i9tmuzZKjct1Y/edit?usp=sharing).
 
 This course is intended as a fast-paced introduction to machine learning with TensorFlow and Keras, focused particularly on neural networks.
 It gives a whirlwind tour of several types of models, and brief coverage of several machine learning topics, but its primary goal is first and foremost to _get you comfortable with writing, training, and deploying sophisticated models in TensorFlow._
@@ -14,9 +14,9 @@ What this course is **not**:
 
 The class is three units, pass-fail.
 That means that readings and labs should take total three hours per week, for ten weeks.
-There are six labs, some of which are 2-week, plus some setup time.
+There are seven labs, plus some setup time.
 I've tried my very best to hit the 3-unit mark, so if a week is too short or too long, please let me know!
-That being said, some weeks may be longer than you're used to for a 3-unit because the ten weeks are divided into six sections, and because we're trying to cover a _lot_ of material in a limited time.
+That being said, some weeks may be longer than you're used to for a 3-unit because the ten weeks are divided into seven sections, and because we're trying to cover a _lot_ of material in a limited time.
 
 If you're planning to take the course, please read this *entire* document.
 It has some important info!
@@ -36,7 +36,7 @@ The only things you really _need_ are solid Python skills and a working understa
 ## Course structure
 All of the labs will have the same basic structure:
   1. A README with a high-level overview of the week's content
-  2. Some reading on the week's material, presented as a `notes_*.ipynb` Jupyter notebook that can be read online or run locally. It will have lots of exposition, plus graphs and code snippets here and there.
+  2. Some reading on the week's material, presented as a `notes_*.ipynb` Jupyter notebook that can be read online or run locally. It will have lots of exposition, plus images and code snippets here and there.
   3. A `lab_*.ipynb` file to be filled out as the week's assignment
 
 While doing the assignments, expect to spend some amount of time reading the TensorFlow documentation, especially pages on functions I mention you might need for a problem.
@@ -95,7 +95,7 @@ Fork the repository (most easily, by clicking the "fork" button in the upper-rig
 #### Locally
 With the virtual environment active, run
 ~~~
-jupyter notebook
+jupyter-notebook
 ~~~
 to host the notebook server.
 If you haven't used Jupyter notebooks before, [here's a pretty good guide](https://www.dataquest.io/blog/jupyter-notebook-tutorial/).
@@ -113,7 +113,9 @@ For any assignment that takes serious processing power, I'll write with Colabora
 Brownie points to anyone who gets their code running on a TPU.
 
 ## Submitting assignments
-TODO
+To submit assignments, make a private GitHub repository forking this one.
+Give read access to me and the TAs for the term you're taking it, then for each assignment, email me the commit hash for your submission.
+I'll send out the relevant information (GitHub usernames, email addresses, due dates, etc) once people have registered for the class.
 
 ## Collaboration policy, honor code
 Feel free to collaborate on concepts, algorithms, etc, but please don't share code in any way.
@@ -125,21 +127,20 @@ You can also look up TensorFlow code snippets that do similar, but not the same,
 It's the difference between getting help on a mini-project to "write linear regression" by searching Stack Exchange for "how to write linear regression in TensorFlow" (bad) vs "how to do matrix multiplication in TensorFlow" (good).
 Ask me if you have questions.
 
-Ultimately, this is a pass-fail course and you're here to learn useful things.
+Ultimately, this is a pass-fail course and you're here to learn useful things, so only do what helps you do that.
 
 ## Resources:
- - Documentation:
-   - [Tensorflow official API](https://www.tensorflow.org/api_docs/python/): The official documentation; hard to search effectively but the individual pages are good
-   - [Tensorflow official API (devdocs version)](https://devdocs.io/tensorflow~python/): An easier-to-search rehost of the official documentation, which I usually prefer to use
-   - [Tensorflow official guide](https://www.tensorflow.org/guide/): A short, high-quality tutorial series by the TF developers
+ - Documentation and TensorFlow resources:
+   - [TensorFlow official API](https://www.tensorflow.org/api_docs/python/): The official documentation; hard to search effectively but the individual pages are good
+   - [TensorFlow official API (devdocs version)](https://devdocs.io/tensorflow~python/): An easier-to-search rehost of the official documentation, which I usually prefer to use
+   - [TensorFlow official guide](https://www.tensorflow.org/guide/): A short, high-quality tutorial series by the TF developers
+   - ["Tensorflow: The Confusing Parts"](https://jacobbuckman.com/post/tensorflow-the-confusing-parts-1/) is a short and very readable guide to the key abstractions behind TensorFlow
+   - ["A Practical Guide for Debugging TensorFlow Codes"](https://wookayin.github.io/tensorflow-talk-debugging/#1) is exactly what it sounds like
  - Derivatives on a computational graph:
    - [Calculus on Computational Graphs: Backpropagation](https://colah.github.io/posts/2015-08-Backprop/): Intuitively building up backpropagation on a graph from simple calculus
    - [Hacker's Guide to Neural Networks](https://karpathy.github.io/neuralnets/): The first part of this (awesome!) article explains backpropagation with examples in code and logic circuits
- - Differentiable programming concepts:
-   - [Software 2.0](https://medium.com/@karpathy/software-2-0-a64152b37c35): An ambitious piece by the director of AI at Tesla in which differential programming is the way most (all?) future software will be written
-   - [2016 Microsoft Research Slides](http://www.cs.nuim.ie/~gunes/files/Baydin-MSR-Slides-20160201.pdf): Slide deck from a research presentation contrasting automatic differentiation (AD) to differentiable programming and covering some topics in both fields
  - Machine learning:
-   - [The "Deep Learning Book"](https://www.deeplearningbook.org/) is in my mind the comprehensive reference on deep learning, from ML first principles to modern approaches. It's a must-read for anyone wanting to seriously get into deep learning. And it's free! 
+   - [The "Deep Learning Book"](https://www.deeplearningbook.org/) is in my mind the comprehensive reference on deep learning, from ML first principles to modern approaches. It's a must-read for anyone wanting to seriously get into deep learning. And it's free!
    - [Practical Deep Learning for Coders (fast.ai)](https://www.fast.ai/) is an incredibly popular online course in deep learning.
  - Cool stuff:
    - [Neural Networks, Types, and Functional Programming](https://colah.github.io/posts/2015-09-NN-Types-FP/)
