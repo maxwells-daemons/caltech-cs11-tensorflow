@@ -80,7 +80,7 @@ To deactivate it when you're done, use `deactivate`.
 #### Required libraries
 Once you're in the virtual environment, run
 ~~~
-pip install numpy scipy matplotlib ipython jupyter pandas scikit-learn tensorflow keras
+pip install numpy scipy matplotlib ipython jupyter pandas scikit-learn tensorflow==1.13.1 keras
 ~~~
 Then, try running `python -c "import tensorflow"` in your shell.
 If the line executes successfully (printing nothing), your setup is probably fine.
@@ -146,3 +146,10 @@ Ultimately, this is a pass-fail course and you're here to learn useful things, s
    - [Neural Networks, Types, and Functional Programming](https://colah.github.io/posts/2015-09-NN-Types-FP/)
    - [Neural Networks, Manifolds, and Topology](https://colah.github.io/posts/2014-03-NN-Manifolds-Topology/)
    - [Christopher Olah's entire blog](https://colah.github.io/)
+
+
+## What about TensorFlow 2.0?
+As you may have heard, [TensorFlow 2.0 is coming soon](https://www.tensorflow.org/alpha).
+This will involve some significant changes to the code, and even the content, of this course.
+However, many of the changes are not finalized and the release date is still uncertain.
+I'll update the course for TensorFlow 2.0 as soon as I can once it's reached a stable release, but for now we're standardizing on TensorFlow 1.
