@@ -89,7 +89,7 @@ If you get an error message like `ModuleNotFoundError: No module named 'tensorfl
 
 #### Downloading the code
 You'll be doing assignments by modifying `.ipynb` notebook files and submitting them via git, so you need your own copy of the code.
-Fork the repository (most easily, by clicking the "fork" button in the upper-right corner of the GitHub page), then make a local copy by cloning your fork.
+[Duplicate the repository](https://help.github.com/en/articles/duplicating-a-repository) (don't fork it, since forks can't be private), host it on GitHub, and add me (and the TAs, whose email addresses I'll send to you).
 
 ## Running the code
 #### Locally
