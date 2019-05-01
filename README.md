@@ -126,6 +126,7 @@ The labs are due at the following times (11 PM Friday) each term:
  - Lab 5: End of the seventh week.
  - Lab 6: End of the eighth week.
  - Lab 7: End of the ninth week.
+ 
 At the start of term, I'll send out exact due dates.
 
 ## Collaboration policy, honor code
