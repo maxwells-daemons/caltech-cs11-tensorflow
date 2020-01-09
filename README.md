@@ -80,7 +80,7 @@ To deactivate it when you're done, use `deactivate`.
 #### Required libraries
 Once you're in the virtual environment, run
 ~~~
-pip install numpy scipy matplotlib ipython jupyter pandas scikit-learn tensorflow==1.13.1 keras
+pip install numpy scipy matplotlib ipython jupyter pandas scikit-learn tensorflow==1.14.0 keras
 ~~~
 Then, try running `python -c "import tensorflow"` in your shell.
 If the line executes successfully (printing nothing), your setup is probably fine.
@@ -115,7 +115,19 @@ Brownie points to anyone who gets their code running on a TPU.
 ## Submitting assignments
 To submit assignments, make a private GitHub repository forking this one.
 Give read access to me and the TAs for the term you're taking it, then for each assignment, email me the commit hash for your submission.
-I'll send out the relevant information (GitHub usernames, email addresses, due dates, etc) once people have registered for the class.
+I'll send out the relevant information (GitHub usernames, email addresses, etc) once people have registered for the class.
+
+## Due dates
+The labs are due at the following times (11 PM Friday) each term:
+ - Lab 1: End of the second week.
+ - Lab 2: End of the third week.
+ - Lab 3: End of the fourth week.
+ - Lab 4: End of the sixth week (take week 5 off for midterms for your other classes).
+ - Lab 5: End of the seventh week.
+ - Lab 6: End of the eighth week.
+ - Lab 7: End of the ninth week.
+ 
+At the start of term, I'll send out exact due dates.
 
 ## Collaboration policy, honor code
 Feel free to collaborate on concepts, algorithms, etc, but please don't share code in any way.
@@ -149,7 +161,7 @@ Ultimately, this is a pass-fail course and you're here to learn useful things, s
 
 
 ## What about TensorFlow 2.0?
-As you may have heard, [TensorFlow 2.0 is coming soon](https://www.tensorflow.org/alpha).
-This will involve some significant changes to the code, and even the content, of this course.
-However, many of the changes are not finalized and the release date is still uncertain.
-I'll update the course for TensorFlow 2.0 as soon as I can once it's reached a stable release, but for now we're standardizing on TensorFlow 1.
+TensorFlow 2.0 was just released. 
+This course was written for TensorFlow 1.0, and while I'd like to update it to 2.0 as soon as possible, it'll stay in 1.0 for now -- install version `tensorflow==1.14.0` with pip.
+The concepts remain the same, so the class should still get you writing effective TensorFlow 2.0 code with a pretty easy transition.
+A number of the important APIs (`tf.nn`, `tf.keras`) remain the same or similar too.
